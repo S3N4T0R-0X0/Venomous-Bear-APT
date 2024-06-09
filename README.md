@@ -13,6 +13,13 @@ The attackers uses a .BAT file that resembles the Microsoft Windows Time Service
 
 3. Backdoor Listener: I was here developed a simple listener script that waits for the incoming connection from the backdoor when it is executed on the target machine.
 
+
+
+According to what the Cisco team said, they were not able to identify the method by which this backdoor was installed on the victims’ systems.
+
+![Screenshot from 2024-06-09 16-11-23](https://github.com/S3N4T0R-0X0/Venomous-Bear-APT/assets/121706460/3116c5e9-0476-4b93-a672-bc7436abfce0)
+
+
 ## The first stage (.BAT file)
 
 The attackers used a .bat file similar to the one below to install the backdoor as a harmless-looking fake Microsoft Windows Time service, the .bat file is also setting the configuration parameters in the registry the backdoor is using.
