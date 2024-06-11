@@ -1,4 +1,4 @@
-# Venomous Bear APT
+# Venomous Bear APT Adversary Simulation
 
 This is a simulation of attack by (Venomous Bear) APT group targeting U.S.A, Germany and Afghanista attack campaign was active since at least 2020, The attack chain starts with
 installed the backdoor as a service on the infected machine. They attempted to operate under the radar by naming the service "Windows Time Service", like the existing Windows service. The backdoor can upload and execute files or exfiltrate files from the infected system, and the backdoor contacted the command and control (C2) server via an HTTPS encrypted channel every five seconds to check if there were new commands from the operator. I relied on ‏Cisco Talos Intelligence Group‏ tofigure out the details to make this simulation: https://blog.talosintelligence.com/tinyturla/
